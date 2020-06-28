@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kunzhoudk.github.io/series/hugo/</loc>
-    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    <loc>https://kunzhoudk.github.io/</loc>
+    <lastmod>2020-06-28T20:02:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kunzhoudk.github.io/</loc>
-    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+    <loc>https://kunzhoudk.github.io/tags/markdown/</loc>
+    <lastmod>2020-06-28T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/posts/master-markdown/</loc>
+    <lastmod>2020-06-28T20:02:16+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://kunzhoudk.github.io/posts/</loc>
+    <lastmod>2020-06-28T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/tags/</loc>
+    <lastmod>2020-06-28T20:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/series/hugo/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,11 +74,6 @@
   
   <url>
     <loc>https://kunzhoudk.github.io/posts/hugo-coder-wiki/</loc>
-    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kunzhoudk.github.io/tags/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url>
   

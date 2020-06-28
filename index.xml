@@ -6,10 +6,22 @@
     <description>Recent content on Main</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 20:02:16 +0200</lastBuildDate>
     
 	<atom:link href="https://kunzhoudk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mastering Markdown</title>
+      <link>https://kunzhoudk.github.io/posts/master-markdown/</link>
+      <pubDate>Sun, 28 Jun 2020 20:02:16 +0200</pubDate>
+      
+      <guid>https://kunzhoudk.github.io/posts/master-markdown/</guid>
+      <description>Mastering Markdown Text Am I **bold** or *italic* ? &amp;lt;br&amp;gt; Maybe I should ~~check~~ [online](google.com). Am I bold or italic ? Maybe I should check online.
+Lists Numbered list : 1. One 2. Kaksi 3. Trois Bullet points : * Yksi * Dos More Points : - Bonjour - hey - moikka - Hola Numbered list :
+ One Kaksi Trois  Bullet points :
+ Yksi Dos  More Points :</description>
+    </item>
     
     <item>
       <title>Twemoji Support 🤩</title>

@@ -118,11 +118,6 @@
   </url>
   
   <url>
-    <loc>https://kunzhoudk.github.io/projects/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kunzhoudk.github.io/series/getting-started/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -144,11 +139,6 @@
   
   <url>
     <loc>https://kunzhoudk.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kunzhoudk.github.io/projects/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -175,7 +165,7 @@
   </url>
   
   <url>
-    <loc>https://kunzhoudk.github.io/projects/projects/</loc>
+    <loc>https://kunzhoudk.github.io/projects/</loc>
   </url>
   
   <url>

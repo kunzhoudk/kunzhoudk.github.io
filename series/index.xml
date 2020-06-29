@@ -1,42 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Series on Main</title>
-    <link>https://kunzhoudk.github.io/series/</link>
-    <description>Recent content in Series on Main</description>
+    <title>Series on Kun Zhou</title>
+    <link>http://example.org/series/</link>
+    <description>Recent content in Series on Kun Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <managingEditor>kun.zhou@agcocorp.com (kun zhou)</managingEditor>
+    <webMaster>kun.zhou@agcocorp.com (kun zhou)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-	<atom:link href="https://kunzhoudk.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://example.org/series/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Hugo</title>
-      <link>https://kunzhoudk.github.io/series/hugo/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+    
+
       
-      <guid>https://kunzhoudk.github.io/series/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>https://kunzhoudk.github.io/series/theme/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      <item>
+        <title>Themes Guide</title>
+        <link>http://example.org/series/themes-guide/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>kun.zhou@agcocorp.com (kun zhou)</author>
+        
+        <guid>http://example.org/series/themes-guide/</guid>
+        <description></description>
+        
+        <dc:creator>kun zhou</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
-      <guid>https://kunzhoudk.github.io/series/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://kunzhoudk.github.io/series/getting-started/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://kunzhoudk.github.io/series/getting-started/</guid>
-      <description></description>
-    </item>
+
     
   </channel>
 </rss>

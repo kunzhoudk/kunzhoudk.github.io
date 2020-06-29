@@ -14,7 +14,47 @@
   
   <url>
     <loc>https://kunzhoudk.github.io/</loc>
-    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/categories/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/tags/git/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/series/git/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/categories/git/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/posts/my-first-post/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/posts/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/series/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kunzhoudk.github.io/tags/</loc>
+    <lastmod>2020-06-29T13:54:32+02:00</lastmod>
   </url>
   
   <url>
@@ -38,22 +78,12 @@
   </url>
   
   <url>
-    <loc>https://kunzhoudk.github.io/posts/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kunzhoudk.github.io/tags/shortcode/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kunzhoudk.github.io/posts/shortcodes/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kunzhoudk.github.io/tags/</loc>
     <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url>
   
@@ -65,11 +95,6 @@
   <url>
     <loc>https://kunzhoudk.github.io/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kunzhoudk.github.io/categories/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   
   <url>
@@ -89,11 +114,6 @@
   
   <url>
     <loc>https://kunzhoudk.github.io/posts/markdown-syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kunzhoudk.github.io/series/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
   

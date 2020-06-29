@@ -14,7 +14,7 @@
     <managingEditor>kun.zhou@agcocorp.com (kun zhou)</managingEditor>
     <webMaster>kun.zhou@agcocorp.com (kun zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2020 13:54:32 +0200</lastBuildDate>
     
         <atom:link href="https://kunzhoudk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,42 @@
         
       
 
+      
+      <item>
+        <title>My First Post</title>
+        <link>https://kunzhoudk.github.io/posts/my-first-post/</link>
+        <pubDate>Mon, 29 Jun 2020 13:54:32 +0200</pubDate>
+        <author>kun.zhou@agcocorp.com (kun zhou)</author>
+        <atom:modified>Mon, 29 Jun 2020 13:54:32 +0200</atom:modified>
+        <guid>https://kunzhoudk.github.io/posts/my-first-post/</guid>
+        <description>This is the tutorial for git</description>
+        
+        <dc:creator>kun zhou</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Shortcodes</title>

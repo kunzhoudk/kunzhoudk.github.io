@@ -1634,7 +1634,6 @@ Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>
 </span><span class="lnt">42
 </span><span class="lnt">43
 </span><span class="lnt">44
-</span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cm">/*
@@ -1659,8 +1658,7 @@ Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>
 </span><span class="c1"></span>        <span class="n">area</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">max</span><span class="p">(</span><span class="n">area</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">min</span><span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="n">first_index</span><span class="p">],</span>
                                        <span class="n">container</span><span class="p">[</span><span class="n">last_index</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">last_index</span> <span class="o">-</span> <span class="n">first_index</span><span class="p">));</span>
 
-        <span class="c1">// if the value at array[first_index] is greater tha array[last_index] then update last_index as last_index – 1
-</span><span class="c1"></span>        <span class="c1">// else update first_index as first_index + 1
+        <span class="c1">// if the value at array[first_index] is greater tha array[last_index] then update last_index as last_index – 1 else update first_index as first_index + 1
 </span><span class="c1"></span>        <span class="k">if</span> <span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="n">first_index</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">container</span><span class="p">[</span><span class="n">last_index</span><span class="p">])</span>
             <span class="n">first_index</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
 

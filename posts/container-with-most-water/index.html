@@ -1629,13 +1629,19 @@ Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>
 </span><span class="lnt">37
 </span><span class="lnt">38
 </span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="c1">//
-</span><span class="c1">// Created by Kun Zhou on 03/07/2020.
-</span><span class="c1"></span>
-<span class="c1">// C++ code for Max Water Container
-</span><span class="c1"></span><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cm">/*
+</span><span class="cm"> *  Created by Kun Zhou on 03/07/2020.
+</span><span class="cm"> *
+</span><span class="cm"> */</span>
+<span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
 </span><span class="cp"></span>
 <span class="cm">/**
 </span><span class="cm"> * @brief calculate the container with max area
@@ -1643,10 +1649,10 @@ Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>
 </span><span class="cm"> * @param len length of the container array
 </span><span class="cm"> * @return the max area form by the two vertical lines together with x-axis
 </span><span class="cm"> */</span>
-<span class="kt">int</span> <span class="nf">maxContainerArea</span><span class="p">(</span><span class="kt">int</span> <span class="n">container</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span> <span class="p">{</span>
+<span class="kt">double</span> <span class="nf">maxContainerArea</span><span class="p">(</span><span class="kt">double</span> <span class="n">container</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span> <span class="p">{</span>
     <span class="kt">int</span> <span class="n">first_index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
     <span class="kt">int</span> <span class="n">last_index</span> <span class="o">=</span> <span class="n">len</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">area</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">area</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
     <span class="k">while</span> <span class="p">(</span><span class="n">first_index</span> <span class="o">&lt;</span> <span class="n">last_index</span><span class="p">)</span> <span class="p">{</span>
         <span class="c1">// Calculating the max area
@@ -1665,10 +1671,16 @@ Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>
 <span class="p">}</span>
 
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kt">int</span> <span class="n">container</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">};</span>
 
+    <span class="c1">// solution to the case in the picture
+</span><span class="c1"></span>    <span class="kt">double</span> <span class="n">container</span><span class="p">[]{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">};</span>
     <span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">container</span><span class="p">)</span> <span class="o">/</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
     <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Container&#39;s max area is: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">maxContainerArea</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">len</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+
+    <span class="c1">// another example
+</span><span class="c1"></span>    <span class="kt">double</span> <span class="n">another</span><span class="p">[]{</span><span class="mf">1.8</span><span class="p">,</span> <span class="mf">8.5</span><span class="p">,</span> <span class="mf">6.3</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">,</span> <span class="mf">8.5</span><span class="p">,</span> <span class="mf">4.4</span><span class="p">,</span> <span class="mf">3.4</span><span class="p">,</span> <span class="mf">7.5</span><span class="p">};</span>
+    <span class="kt">int</span> <span class="n">len2</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">another</span><span class="p">)</span> <span class="o">/</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">another</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Container&#39;s max area is: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">maxContainerArea</span><span class="p">(</span><span class="n">another</span><span class="p">,</span> <span class="n">len2</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>

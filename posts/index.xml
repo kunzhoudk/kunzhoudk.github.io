@@ -14,13 +14,49 @@
     <managingEditor>kun.zhou@agcocorp.com (kun zhou)</managingEditor>
     <webMaster>kun.zhou@agcocorp.com (kun zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 19:33:38 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 20:52:13 +0200</lastBuildDate>
     
         <atom:link href="https://kunzhoudk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Container With Most Water</title>
+        <link>https://kunzhoudk.github.io/posts/container-with-most-water/</link>
+        <pubDate>Fri, 03 Jul 2020 20:52:13 +0200</pubDate>
+        <author>kun.zhou@agcocorp.com (kun zhou)</author>
+        <atom:modified>Fri, 03 Jul 2020 20:52:13 +0200</atom:modified>
+        <guid>https://kunzhoudk.github.io/posts/container-with-most-water/</guid>
+        <description>Container With Most Water https://leetcode.com/problems/container-with-most-water/
+Given n non-negative integers a1, a2, &amp;hellip;, an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+Note: You may not slant the container and n is at least 2.</description>
+        
+        <dc:creator>kun zhou</dc:creator>
+        <media:content url="https://kunzhoudk.github.ioimages/feature2/transfer.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+          
+            
+              <category>C&#43;&#43;</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>Danish New Words</title>

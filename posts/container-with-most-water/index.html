@@ -1559,7 +1559,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jul 3, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;kun zhou</span>
   
@@ -1581,13 +1581,98 @@
       
       <h2 id="container-with-most-water">Container With Most Water</h2>
 <p><a href="https://leetcode.com/problems/container-with-most-water/">https://leetcode.com/problems/container-with-most-water/</a><br />
-Given n non-negative integers <em>a1, a2, &hellip;, a<sub>n</sub></em> , where each represents a point at coordinate <em>(i, a<sub>i</sub>)</em>. <em>n</em> vertical lines are drawn such that the two endpoints of line i is at <em>(i, a<sub>i</sub>)</em> and <em>(i, 0)</em>. Find two lines, which together with x-axis forms a container, such that the container contains the most water.</p>
+Given n non-negative integers <em>a<sub>1</sub>, a<sub>2</sub>, &hellip;, a<sub>n</sub></em>, where each represents a point at coordinate <em>(i, a<sub>i</sub>)</em>. <em>n</em> vertical lines are drawn such that the two endpoints of line i is at <em>(i, a<sub>i</sub>)</em> and <em>(i, 0)</em>.Find two lines, which together with x-axis forms a container, such that the container contains the most water.</p>
 <p><strong>Note</strong>: You may not slant the container and <em>n</em> is at least 2.<br />
 <img src="/images/c++/container_with_most_water.jpg" alt="container" /></p>
 <p><strong>Example:</strong><br />
 <strong>Input</strong>: [1,8,6,2,5,4,8,3,7] for above picture.<br />
-<strong>Output</strong>: 49</p>
+<strong>Output</strong>: 49<br />
+<strong>Solution</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="c1">//
+</span><span class="c1">// Created by Kun Zhou on 03/07/2020.
+</span><span class="c1"></span>
+<span class="c1">// C++ code for Max Water Container
+</span><span class="c1"></span><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="cm">/**
+</span><span class="cm"> * @brief calculate the container with max area
+</span><span class="cm"> * @param container the container array
+</span><span class="cm"> * @param len length of the container array
+</span><span class="cm"> * @return the max area form by the two vertical lines together with x-axis
+</span><span class="cm"> */</span>
+<span class="kt">int</span> <span class="nf">maxContainerArea</span><span class="p">(</span><span class="kt">int</span> <span class="n">container</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">len</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">first_index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">last_index</span> <span class="o">=</span> <span class="n">len</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">area</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
+    <span class="k">while</span> <span class="p">(</span><span class="n">first_index</span> <span class="o">&lt;</span> <span class="n">last_index</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Calculating the max area
+</span><span class="c1"></span>        <span class="n">area</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">max</span><span class="p">(</span><span class="n">area</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">min</span><span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="n">first_index</span><span class="p">],</span>
+                                       <span class="n">container</span><span class="p">[</span><span class="n">last_index</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">last_index</span> <span class="o">-</span> <span class="n">first_index</span><span class="p">));</span>
+
+        <span class="c1">// if the value at array[first_index] is greater tha array[last_index] then update last_index as last_index – 1
+</span><span class="c1"></span>        <span class="c1">// else update first_index as first_index + 1
+</span><span class="c1"></span>        <span class="k">if</span> <span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="n">first_index</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">container</span><span class="p">[</span><span class="n">last_index</span><span class="p">])</span>
+            <span class="n">first_index</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+
+        <span class="k">else</span>
+            <span class="n">last_index</span> <span class="o">-=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">area</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">container</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">};</span>
+
+    <span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">container</span><span class="p">)</span> <span class="o">/</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">container</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Container&#39;s max area is: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">maxContainerArea</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">len</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </article>
     
     <script>
